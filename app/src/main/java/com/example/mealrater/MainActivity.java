@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity implements MealRaterDialog.M
     public void onPositiveButtonClick(int standard) {
         switch (standard) {
             case 0:
-                rating.setText("* * * * *");
+                rating.setText("** * * *");
                 break;
             case 1:
                 rating.setText("* * * *");
